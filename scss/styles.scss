@@ -1,3 +1,6 @@
+// vars
+$white: #fff;
+
 *, *::before, *::after {
 	box-sizing: border-box;
 }
@@ -13,7 +16,7 @@ html, body {
 	margin: auto;
 	width: 400px;
 	padding: 20px 30px;
-	background: #fff;
+	background: $white;
 	border: 1px solid #dfdfdf;
 	transform-style: preserve-3d;
 	perspective-origin: 50px center;
@@ -36,7 +39,7 @@ html, body {
 		content: 'Successfully logged in!';
 		transform: translateY(-50%) translateZ(-101px) scaleX(-1);
 		top: 50%;
-		color: #fff;
+		color: $white;
 		text-align: center;
 		font-weight: bold;
   }
@@ -74,7 +77,7 @@ html, body {
 
 .input {
 	border: 1px solid #dfdfdf;
-	background: #fff;
+	background: $white;
 	height: 48px;
 	line-height: 48px;
 	padding: 0 10px 0 48px;
@@ -88,7 +91,7 @@ html, body {
 	border: 0;
 	text-align: center;
 	font-weight: bold;
-	color: #fff;
+	color: $white;
 	background: linear-gradient(45deg, #e53935, #e35d5b);
 	margin-top: 20px;
 	padding: 14px;
