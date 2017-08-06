@@ -18,7 +18,7 @@ const formAnim = {
 	}
 }
 
-const $input = $('#email, #password'),
+const $input = $('#username, #password'),
 		$submit = $('#submit');
 let focused = false,
 		completed = false;
@@ -39,7 +39,7 @@ $input.blur(function() {
 
 $input.on('input paste keyup', function() {
 	completed = true;
-	// check if the inputs are empty (email & password)
+	// check if the inputs are empty (username & password)
 	$input.each(function() {
 		if(this.value === '')
 			completed = false;

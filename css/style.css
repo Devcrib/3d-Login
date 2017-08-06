@@ -5,8 +5,6 @@
 html, body {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: linear-gradient(45deg, #83a4d4, #b6fbff);
 }
@@ -48,8 +46,6 @@ html, body {
   position: relative;
   background: #cfcfcf;
   transform-style: preserve-3d;
-}
-.field {
   margin-top: 10px;
 }
 
@@ -151,7 +147,7 @@ html, body {
   right: 0;
 }
 
-.email .icon::before, .email .icon::after {
+.username .icon::before, .username .icon::after {
   background: url(../img/user.svg) center/contain no-repeat;
 }
 
@@ -199,7 +195,7 @@ input:active, input:focus, button:active, button:focus {
 
 /* form-complete keyframes */
 @keyframes formComplete {
-  50%, 55% {
+  50%, 70% {
     transform: rotateX(30deg) rotateY(180deg);
   }
   100% {
